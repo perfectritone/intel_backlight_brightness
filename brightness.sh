@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 max=`cat /sys/class/backlight/intel_backlight/max_brightness`
 val=`cat /sys/class/backlight/intel_backlight/brightness`
