@@ -10,7 +10,8 @@ You may need to change the permissions of the brightness files to allow changes 
      sudo chgrp wheel /sys/class/backlight/intel_backlight/ -R
 
 Place the script, or add a link to ~/scripts/brightness.sh
-###Openbox
+
+### Openbox
 Add the following to your rc.xml
 
     <keybind key="XF86MonBrightnessUp">
@@ -32,7 +33,7 @@ Add the following to your rc.xml
       </action>
     </keybind>
 
-###sxhkd
+### sxhkd
 Add the following to your sxhkdrc
 
 XF86MonBrightnessUp
